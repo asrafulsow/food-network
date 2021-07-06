@@ -163,4 +163,8 @@ nav ul li a{
 .food-network-area p{
     color: #fff;
 }
+.button{
+    width: 20%!important;
+    font-size: 20px;
+}
 /*********footer area end*******/
