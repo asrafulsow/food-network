@@ -5,19 +5,26 @@
     width: 80%;
     margin: 0 auto;
 }
-.diplay-flex{
+.display-flex{
     display: flex;
+}
+.text-center{
+    text-align: center;
 }
 .section-pad{
     padding: 90px;
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .light-salmon{
     color: lightsalmon;
 }
 /******* top-header-area-start********/
+.top-header{
+    background: linear-gradient(45deg, #ff08089e, transparent);
+}
 .logo{
     width: 20%;
     margin-left: 40px;
@@ -36,7 +43,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     padding: 15px;
-    color: #aaa;
+    color: #976a6a;
     font-weight: 800;
     text-transform: uppercase;
     margin: 0 10px;
@@ -89,4 +96,31 @@ nav ul li a{
 .about-me-contant h1{
     font-size: 30px;
     color: gray;
+}
+/*********** about me area end **********/
+/******* My racipies area start ********/
+.my-racipies-area{
+    padding: 70px 0px;
+}
+.racipies-tp-contant h1{
+    color: gray;
+    font-size: 30px;
+}
+.racipies-tp-contant p{
+    padding: 15px 435px;
+    line-height: 25px;
+}
+.racipies-detail img{
+    width: 100%;
+    border-radius: 20px;
+}
+.racipies-detail{
+    width: 70%;
+    margin: 0 auto;
+}
+.racipies-detail-contant{
+    box-shadow: 5px 15px 35px grey;
+    margin-right: 50px;
+    padding: 15px;
+    border-radius: 30px;
 }
